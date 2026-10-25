@@ -35,5 +35,10 @@ foreach (string project in projects)
 }
 Console.WriteLine();
 
+Console.Write("What is your name? ");
+string? visitor = Console.ReadLine();
+Console.WriteLine($"Welcome, {visitor}! Thanks for visiting my portfolio.");
+Console.WriteLine();
+
 Console.WriteLine("Press any key to exit...");
 Console.ReadKey();
